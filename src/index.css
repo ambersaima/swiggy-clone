@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+/* Global Theme */
+:root {
+  --text: #686b78;
+  --text-h: #02060c;
+  --bg: #ffffff;
+  --border: #e5e7eb;
+
+  --sans: 'Inter', sans-serif;
+  --heading: 'Inter', sans-serif;
+
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--text);
+  background: var(--bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Body */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: var(--sans);
+}
+
+/* Main Root */
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading);
+  color: var(--text-h);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}
+
+/* Form Elements */
+button,
+input,
+select,
+textarea {
+  font-family: var(--sans);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove unnecessary default borders */
+button {
+  cursor: pointer;
+}
