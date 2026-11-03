@@ -67,7 +67,7 @@ function Navbar() {
             className="flex items-center gap-2 hover:text-orange-500 whitespace-nowrap"
           >
             <FaPercent />
-            Offers
+            Offer New
             <span className="text-orange-500 text-xs">NEW</span>
           </a>
 
